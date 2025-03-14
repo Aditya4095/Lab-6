@@ -1,3 +1,4 @@
+import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Header from './components/Header'
 import Footer from './components/footer'
@@ -6,6 +7,7 @@ import About from './pages/About'
 import Projects from './pages/Projects'
 import NotFound from './pages/NotFound'
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 export default function App() {
   return (
